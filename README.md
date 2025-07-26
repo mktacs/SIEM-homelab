@@ -10,8 +10,8 @@ The purpose of this project is to setup a home-based Security Operations Center 
 
 ### Tools (Will add new tools in progress)
 - Virtualization: VirtualBox
-- Operating Systems: Windows (Victim), Ubuntu (Server), Kali (Attacker)
-- SIEM: Splunk (free edition)
+- Operating Systems: Windows (Victim), ~~Ubuntu~~ Debian (Server), Kali (Attacker)
+- SIEM: ~~Splunk (free edition)~~ ELK stack (Splunk is not sending a verification email for some reason)
 - Network Monitoring: Wireshark/Snort
 
 ### Progress tracker
