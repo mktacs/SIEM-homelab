@@ -40,7 +40,9 @@ sudo systemctl start kibana
 - the configuration file's path is `/etc/kibana/kibana.yml`
 - Had to uncomment just 2 fields for now
 	- `server.host: "0.0.0.0"`
+		- this one specifies ip of this kibana server
 	- `elasticsearch.hosts: ["http://localhost:9200"]`
+		- and this one is basically an elasticsearch's API
 - then restarted kibana with `sudo systemctl restart kibana` and that's it, it is working now >
 <img width="2258" height="1105" alt="Screenshot 2025-07-27 033144" src="https://github.com/user-attachments/assets/d470d597-65f6-4202-b9d1-d938e93c2267" />
 - token generation is straight-forward, there is a button "Where do I find this?" which explains what command to run
