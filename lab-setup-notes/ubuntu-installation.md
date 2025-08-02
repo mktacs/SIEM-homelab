@@ -8,6 +8,6 @@ This machine will act as a server with elasticsearch, kibana, it will also act a
 > Note: I used Ubuntu Desktop instead of the Server edition to simplify navigation and avoid confusion while testing Elastic Stack components. This increased resource usage but provided easier GUI access to tools and browser-based services like Kibana.
 ## 2. VM Configuration
 - **RAM:** 24GB (started with 16, it was pretty sluggish after installation of elasticsearch & kibana, increased to 24)
-- **CPU:** 12 cores
+- **CPU:** 8 cores
 - **Disk:** 50GB dynamically allocated
 - **Network:** Bridged Adapter (for agent to connect properly)
