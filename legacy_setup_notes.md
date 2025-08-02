@@ -1,3 +1,9 @@
+# Legacy notes
+These notes are from the first try of setting up the SIEM lab project.
+In the end I was unable to set it up so I reinstalled everything and started all over again from scratch.
+I will add more info about what exactly went wrong to the bottom of this file.
+---
+
 ### ElasticSearch installation process
 Installed as per instruction from the official website - https://www.elastic.co/docs/deploy-manage/deploy/self-managed/install-elasticsearch-with-debian-package
 #### Steps: 
