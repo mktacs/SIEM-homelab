@@ -27,3 +27,5 @@ network:
       nameservers:
         addresses: [8.8.8.8,8.8.4.4]
 ```
+---
+That's it for the machine itself. Proceed to [`elasticsearch-setup.md`](./elasticsearch-setup.md)
