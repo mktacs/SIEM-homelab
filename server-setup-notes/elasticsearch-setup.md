@@ -61,4 +61,4 @@ sudo systemctl status elasticsearch
 ---
 ### Summary
 Elasticsearch is now installed and running with TLS and security features enabled. You’ve also generated credentials and a Kibana enrollment token for the next step.
-Proceed to [`kibana-setup.md`](./server-setup-notes/kibana-setup.md) to finish the Elasatic Stack setup
+Proceed to [`kibana-setup.md`](./kibana-setup.md) to finish the Elasatic Stack setup
