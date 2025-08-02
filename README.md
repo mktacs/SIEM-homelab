@@ -16,8 +16,8 @@ The purpose of this project is to setup a home-based Security Operations Center 
 
 ### Progress tracker
 - [x] Define architecture and objectives
-- [ ] Deploy vulnerable machine
-- [ ] Configure SIEM and log shipping
+- [x] Deploy vulnerable machine
+- [x] Configure SIEM and log shipping
 - [ ] Simulate attack scenarios
 - [ ] Analyze the logs, practice with SIEM
 - [ ] Create response playbooks
