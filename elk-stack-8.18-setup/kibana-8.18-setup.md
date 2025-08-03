@@ -32,3 +32,14 @@ pid.file: /run/kibana/kibana.pid
 > Note: HTTPS won't work, make sure you are using HTTP or simply access it via localhost.
 - Kibana asks to insert the enrollment token and asks for the verification code which can be generated via `sudo /usr/share/kibana/bin/kibana-verification-code`
 - Then it asks for the credentials to sign in, username of superuser is "elastic", and I have generated a password earlier.
+### 4. Fleet preconfigurations
+> Note: this time I didn't have to create and put the keys manually, I guess it depends on the OS.
+> But, adding this part from the previous setup just in case
+- Went to "Fleet", it gave an error message "Unable to initialize Fleet. Agent binary source needs encrypted saved object api key to be set"
+- generated 3 different keys via `openssl rand -base64 32`
+- added 3 more fields to kibana's config file:
+```
+xpack.encryptedSavedObjects.encryptionKey: "generated_string"
+xpack.reporting.encryptionKey: "another_generated_string"
+xpack.security.encryptionKey: "yet_another_generated_string"
+```
