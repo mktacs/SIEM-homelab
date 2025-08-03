@@ -43,3 +43,5 @@ xpack.encryptedSavedObjects.encryptionKey: "generated_string"
 xpack.reporting.encryptionKey: "another_generated_string"
 xpack.security.encryptionKey: "yet_another_generated_string"
 ```
+---
+That's it for Kibana, proceed to [fleet-8.18-setup.md](./fleet-8.18-setup.md)
