@@ -21,4 +21,4 @@ network:
 ```
 ### 5. Connected to VM via SSH via `ssh <username>@ip`
 ---
-That's all for the initial VM setup, proceed to [elk-8.18-setup.md](./elk-8.18-setup.md)
+That's all for the initial VM setup, proceed to [elasticsearch-8.18-setup.md](./eleasticsearch-8.18-setup.md)
