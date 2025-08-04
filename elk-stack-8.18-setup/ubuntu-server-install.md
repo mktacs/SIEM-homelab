@@ -8,7 +8,7 @@
 ```
 network:
   version: 2
-  renderer: NetworkManager
+  renderer: networkd
   ethernets:
     enp0s3:
       dhcp4: no
