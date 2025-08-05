@@ -1,6 +1,6 @@
 ## Disclaimer
 - This folder contains my notes about installation of ELK stack on Ubuntu Server.
-- It can also act as a guideline on how to set it up, but only for the lab purposes, it absolutely **NOT** suited for production.
+- It can also act as a guideline on how to set it up, but only for the lab purposes, it is absolutely **NOT** suited for production.
 - I am sure that it is also absolutely **NOT** the best way to set it up, and in fact, it is already my third attempt to set everything up properly.
 - I am working on this whole lab only for educational purposes, to learn something new and figure things out.
 
